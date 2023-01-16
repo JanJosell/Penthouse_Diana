@@ -47,6 +47,7 @@ iframe {
 /* // Blurs background of */
 
 .blur {
+  -webkit-backdrop-filter: blur(20px) contrast(70%) brightness(150%);
   backdrop-filter: blur(10px) contrast(70%) brightness(150%);
   padding: 3rem;
   border-radius: 2rem;
