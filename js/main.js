@@ -6,24 +6,25 @@ const calendar = document.getElementById("calendar");
 const maps = document.getElementById("maps");
 const slideshow = document.getElementById("slideshow");
 const pictures = document.getElementById("pictures");
+const slogan = document.getElementById("slogan");
 
 availabilityBtn.addEventListener("click", () => {
-  maps.style.display = "none";
-  slideshow.style.display = "none";
-  calendar.style.display = "block";
-  console.log("bort");
+  maps.classList.remove("show");
+  slogan.classList.remove("show");
+  slideshow.classList.remove("show");
+  calendar.classList.add("show");
 });
 
 mapsBtn.addEventListener("click", () => {
-  calendar.style.display = "none";
-  slideshow.style.display = "none";
-  maps.style.display = "block";
-  console.log("bort");
+  calendar.classList.remove("show");
+  slogan.classList.remove("show");
+  slideshow.classList.remove("show");
+  maps.classList.add("show");
 });
 
 pictures.addEventListener("click", () => {
-  calendar.style.display = "none";
-  maps.style.display = "none";
-  slideshow.style.display = "block";
-  console.log("bort");
+  maps.classList.remove("show");
+  slogan.classList.remove("show");
+  calendar.classList.remove("show");
+  slideshow.classList.add("show");
 });

@@ -44,22 +44,12 @@ iframe {
   height: 50vh;
 }
 
-.calendar {
-  display: none;
-}
-
-.maps {
-  display: none;
-}
-
-.slideshow {
-  display: none;
-}
-
 /* // Blurs background of */
 
 .blur {
-  backdrop-filter: blur(20px) contrast(70%) brightness(150%);
+  backdrop-filter: blur(10px) contrast(70%) brightness(150%);
+  padding: 3rem;
+  border-radius: 2rem;
 }
 
 .splide {
@@ -92,6 +82,24 @@ iframe {
 .thumbnail img {
   width: 100%;
   height: auto;
+}
+
+.hidden {
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: opacity 1s ease;
+}
+.hidden.show {
+  height: auto;
+  opacity: 1;
+}
+
+h1 {
+  font-family: Cinzel;
+  color: rgb(19, 31, 86);
+  font-weight: 300;
+  text-align: center;
 }
 
 /*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
@@ -190,11 +198,6 @@ textarea {
 /*
  * Hide visually and from screen readers
  */
-
-.hidden,
-[hidden] {
-  display: none !important;
-}
 
 /*
  * Hide only visually, but have it available for screen readers:
