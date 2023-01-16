@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta property="og:title" content="" />
+    <meta property="og:type" content="" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="" />
+
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="apple-touch-icon" href="icon.png" />
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/splide.min.css" />
+
+    <meta name="theme-color" content="#fafafa" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Signika+Negative:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="js/main.js" type="module" defer></script>
+    <script
+      src="js/vendor/modernizr-3.11.2.min.js"
+      type="module"
+      defer
+    ></script>
+    <script src="js/plugins.js" type="module" defer></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.0.1/dist/js/splide.min.js"
+    ></script>
+  </head>
+
+  <body>
+    <section class="wp start">
+      <header>
+        <a href="index.html"><img src="/img/Penthouse Diana.png" alt="" /></a>
+        <a id="pictures">Pictures</a>
+        <a id="availabilityBtn">Availability</a>
+        <a id="mapsBtn" class="">Location</a>
+        <a id="contactBtn">Contact</a>
+      </header>
+      <div class="content-container" id="contentContainer">
+        <div class="slideshow" id="slideshow">
+          <section
+            id="main-slider"
+            class="splide"
+            aria-label="My Awesome Gallery"
+          >
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide">
+                  <img
+                    src="img/Skärmavbild 2023-01-15 kl. 23.28.05.png"
+                    alt=""
+                  />
+                </li>
+                <li class="splide__slide">
+                  <img
+                    src="img/Skärmavbild 2023-01-15 kl. 23.28.15.png"
+                    alt=""
+                  />
+                </li>
+                <li class="splide__slide">
+                  <img
+                    src="img/Skärmavbild 2023-01-15 kl. 23.28.22.png"
+                    alt=""
+                  />
+                </li>
+                <li class="splide__slide">
+                  <img
+                    src="img/Skärmavbild 2023-01-15 kl. 23.28.31.png"
+                    alt=""
+                  />
+                </li>
+              </ul>
+            </div>
+          </section>
+          <ul id="thumbnails" class="thumbnails">
+            <li class="thumbnail">
+              <img src="img/Skärmavbild 2023-01-15 kl. 23.28.05.png" alt="" />
+            </li>
+            <li class="thumbnail">
+              <img src="img/Skärmavbild 2023-01-15 kl. 23.28.15.png" alt="" />
+            </li>
+            <li class="thumbnail">
+              <img src="img/Skärmavbild 2023-01-15 kl. 23.28.22.png" alt="" />
+            </li>
+            <li class="thumbnail">
+              <img src="img/Skärmavbild 2023-01-15 kl. 23.28.31.png" alt="" />
+            </li>
+          </ul>
+        </div>
+        <div class="calendar" id="calendar">
+          <iframe
+            src="https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23E4C441&ctz=Europe%2FStockholm&showTitle=1&title=Penthouse%20Diana&src=ODU1N2QwNGIwOGU3OGUzMzFlZjNkZGFmOTM3OTEyNWE3OGE2NjRiYmVjY2ZkN2ZiMDhiZjBjNmNlNDkxY2IzM0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23A79B8E"
+            style="border: solid 1px #777"
+            width="800"
+            height="600"
+            frameborder="0"
+            scrolling="no"
+            class=""
+          ></iframe>
+        </div>
+        <div id="maps" class="maps">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11446.607968162685!2d-3.698047061629161!3d36.73967950896692!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7188a2a9c6a9a3%3A0xf957ea4c719826fe!2s18690%20Almu%C3%B1%C3%A9car%2C%20Granada%2C%20Spanien!5e0!3m2!1ssv!2sse!4v1673806913022!5m2!1ssv!2sse"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            class=""
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+    <script>
+      window.ga = function () {
+        ga.q.push(arguments);
+      };
+      ga.q = [];
+      ga.l = +new Date();
+      ga("create", "UA-XXXXX-Y", "auto");
+      ga("set", "anonymizeIp", true);
+      ga("set", "transport", "beacon");
+      ga("send", "pageview");
+    </script>
+    <script>
+      var splide = new Splide("#main-slider", {
+        width: 800,
+        height: 400,
+        pagination: false,
+        cover: true,
+      });
+
+      var thumbnails = document.getElementsByClassName("thumbnail");
+      var current;
+
+      for (var i = 0; i < thumbnails.length; i++) {
+        initThumbnail(thumbnails[i], i);
+      }
+
+      function initThumbnail(thumbnail, index) {
+        thumbnail.addEventListener("click", function () {
+          splide.go(index);
+        });
+      }
+
+      splide.on("mounted move", function () {
+        var thumbnail = thumbnails[splide.index];
+
+        if (thumbnail) {
+          if (current) {
+            current.classList.remove("is-active");
+          }
+
+          thumbnail.classList.add("is-active");
+          current = thumbnail;
+        }
+      });
+
+      splide.mount();
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+  </body>
+</html>
