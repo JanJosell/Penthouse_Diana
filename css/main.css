@@ -5,7 +5,7 @@
 
 header {
   height: 6rem;
-  background: linear-gradient(rgba(40, 40, 40, 0.76), rgba(255, 255, 255, 0));
+  background: linear-gradient(rgba(65, 65, 65, 0.822), rgba(255, 255, 255, 0));
   display: flex;
   justify-content: flex-start;
   align-items: baseline;
@@ -37,7 +37,7 @@ header > a > img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 70vh;
+  min-height: 70vh;
 }
 
 iframe {
@@ -47,12 +47,11 @@ iframe {
 /* // Blurs background of */
 
 .blur {
-  -webkit-backdrop-filter: blur(20px) contrast(70%) brightness(150%);
+  -webkit-backdrop-filter: blur(10px) contrast(70%) brightness(150%);
   backdrop-filter: blur(10px) contrast(70%) brightness(150%);
   padding: 3rem;
   border-radius: 2rem;
 }
-
 .splide {
   margin: 0 auto;
   height: 100%;
@@ -88,12 +87,14 @@ iframe {
 .hidden {
   height: 0;
   opacity: 0;
+  padding: 0;
   overflow: hidden;
   transition: opacity 1s ease;
 }
 .hidden.show {
   height: auto;
   opacity: 1;
+  padding: 2rem;
 }
 
 h1 {
