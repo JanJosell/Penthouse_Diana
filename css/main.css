@@ -7,8 +7,8 @@ header {
   height: 6rem;
   background: linear-gradient(rgba(65, 65, 65, 0.822), rgba(255, 255, 255, 0));
   display: flex;
+  align-items: center;
   justify-content: flex-start;
-  align-items: baseline;
 }
 header > a {
   color: #fff;
@@ -23,8 +23,13 @@ header > a > img {
   padding-top: 0.3rem;
   padding-right: 10rem;
   padding-left: 2rem;
-  height: 5.5rem;
-  width: auto;
+  height: auto;
+  width: 25rem;
+  -webkit-backdrop-filter: blur(10px) contrast(70%) brightness(180%);
+  backdrop-filter: blur(10px) contrast(70%) brightness(180%);
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .wp.start {
@@ -42,7 +47,7 @@ header > a > img {
 
 .slogan {
   position: absolute;
-  top: 10vh;
+  top: 13vh;
 }
 
 iframe {
@@ -107,10 +112,15 @@ h1 {
   color: rgb(19, 31, 86);
   font-weight: 300;
   text-align: center;
+  margin: 0;
 }
 
 .calendar {
   width: 40vw;
+}
+
+#pictures {
+  margin-left: 25rem;
 }
 
 /*! HTML5 Boilerplate v8.0.0 | MIT License | https://html5boilerplate.com/ */
