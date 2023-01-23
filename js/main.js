@@ -1,22 +1,22 @@
 const contentContainer = document.getElementById("contentContainerBtn");
-const availabilityBtn = document.getElementById("availabilityBtn");
+const infoBtn = document.getElementById("infoBtn");
 const mapsBtn = document.getElementById("mapsBtn");
 const contactBtn = document.getElementById("contactBtn");
-const calendar = document.getElementById("calendar");
+const info = document.getElementById("info");
 const maps = document.getElementById("maps");
 const slideshow = document.getElementById("slideshow");
 const pictures = document.getElementById("pictures");
 const slogan = document.getElementById("slogan");
 
-availabilityBtn.addEventListener("click", () => {
+infoBtn.addEventListener("click", () => {
   maps.classList.remove("show");
   slogan.classList.remove("show");
   slideshow.classList.remove("show");
-  calendar.classList.add("show");
+  info.classList.add("show");
 });
 
 mapsBtn.addEventListener("click", () => {
-  calendar.classList.remove("show");
+  info.classList.remove("show");
   slogan.classList.remove("show");
   slideshow.classList.remove("show");
   maps.classList.add("show");
@@ -25,6 +25,6 @@ mapsBtn.addEventListener("click", () => {
 pictures.addEventListener("click", () => {
   maps.classList.remove("show");
   slogan.classList.remove("show");
-  calendar.classList.remove("show");
+  info.classList.remove("show");
   slideshow.classList.add("show");
 });
